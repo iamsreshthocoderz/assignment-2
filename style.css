@@ -260,7 +260,7 @@ a {
     transition: opacity 0.3s;
 }
 
-.bx {
+.bx-play{
     justify-content: center;
     width: 42px;
     height: 42px;
@@ -274,7 +274,7 @@ a {
 }
 
 .play-button {
-    font-size: 48px;
+    font-size: 3rem;
     color: white;
     text-align: center;
     font-size: 40px;
