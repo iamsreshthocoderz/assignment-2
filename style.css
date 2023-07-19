@@ -8,7 +8,6 @@
 
 }
 
-
 .menus-container {
     display: flex;
     justify-content: space-between;
@@ -16,7 +15,7 @@
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
     padding: 20px;
     align-items: center;
-    cursor: pointer;
+
 
 }
 
@@ -73,8 +72,7 @@ a {
     align-items: center;
     /* gap: 100px; */
     margin: 0 200px;
-    overflow-x: hidden;
-    
+
 }
 
 .goat-container {
@@ -86,14 +84,15 @@ a {
     font-size: 90px;
     font-weight: 800;
 }
-.goat-container h2{
+
+.goat-container h2 {
     color: #0B0223;
     text-align: center;
     font-size: 48px;
     font-weight: 600;
 }
 
-.goat-container p{
+.goat-container p {
     line-height: 30px;
 }
 
@@ -105,19 +104,21 @@ a {
 
 .goat-img img {
     width: 711px;
-    overflow-x: hidden;
+
 }
 
 .btn-paimary {
     border: 0;
     display: inline-flex;
     padding: 21px 3px;
-    align-items: flex-start;
+    /* align-items: center; */
     gap: 10px;
-    
+
+
+
 }
 
-.btn-1{
+.btn-1 {
     font-size: 20px;
     border: 0;
     border-radius: 48px;
@@ -126,8 +127,10 @@ a {
     height: 65px;
     color: white;
     cursor: pointer;
+
 }
-.btn-2{
+
+.btn-2 {
     font-size: 20px;
     border: 0;
     border-radius: 48px;
@@ -136,51 +139,339 @@ a {
     height: 65px;
     color: white;
     cursor: pointer;
+
 }
 
-/* main gamer */
+/* gamer part */
 
-.gamer{
+.gamer {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    
-    
+    margin-top: 100px;
 }
 
-.gamer-title{
-    text-align: right;
-    margin-right: 200px;
+.gamer-img {
+
+    margin-right: 5px;
+
 }
 
-.gamer-title h1{
-    color: #F948B2;
+.gamer-img img {
+    width: 100%;
+
+}
+
+
+.gamer-title h1 {
     font-size: 48px;
-    font-weight: 700;
-    margin-bottom: 10px;
-   
+    padding-bottom: 24px;
 }
 
-.gamer-title p{
-    text-align: right;
+
+.gamer-title p {
+    margin-bottom: 10px;
+
+}
+
+.gamer-title p {
+    color: #534C64;
     font-size: 18px;
     font-weight: 400;
+    line-height: 30px;
 
 }
+
+.purpose {
+    text-align: right;
+
+}
+
+.btn-3 {
+    padding: 21px 40px;
+    gap: 10px;
+    border-radius: 48px;
+    background-color: #FF42A5;
+    cursor: pointer;
+    color: white;
+    gap: 10px;
+
+}
+
 
 /* funny video */
-.all-img{
+
+
+  .funny-title{
+    text-align: center;
+  }
+
+  .all-img{
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
+  .funny-img{
+    flex: 0 0 250px;
+    margin: 20px;
+    text-align: center;
+  }
+  .funny-img img{
+    max-width: 100%;
+    height: auto;
+  }
+  .funny-img p{
+    margin-top: 10px;
+  }
+
+
+  
+
+
+
+  .funny-img {
+    position: relative;
+    display: inline-block;
+    margin: 20px;
+  }
+  
+  /* .funny-img img {
+    width: 100%;
+    height: auto;
+  } */
+  
+  .overlay {
+    position: absolute;
+    border-radius: 16px;
+    top: 0;
+    left: 0;
+    font-weight: 600;
+    width: 100%;
+    height: 85%;
+    background-color: rgba(0, 0, 0, 0.486);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0%;
+    cursor: pointer;
+    transition: opacity 0.3s;
+  }
+  
+  .funny-img:hover .overlay {
+    opacity: 3;
+  }
+  
+  .play-button {
+    font-size: 48px;
+    color: white;
+    text-align: center;
+    font-size: 40px;
+  }
+  
+  .text {
+    margin-top: 10px;
+    color: #FF42A5;
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    
+  }
+
+.funny-img-5{
+    text-align: left;
 }
+  
 
 
+
+  
 /* download video  */
 
 
-.download{
+.download {
     display: flex;
+    justify-content: space-around;
     margin-top: 50px;
-    gap: 50px;
+    gap: 20px;
+    align-items: center;
+
+
+}
+
+.download-title {
+    font-size: 48px;
+    font-weight: 700;
+    line-height: 60px;
+    padding-left: 150px;
+    padding-right: 100px;
+    text-align: right;
+
+}
+
+.paragraph {
+
+    text-align: right;
+    padding-left: 150px;
+    padding-right: 100px;
+}
+
+.download-img {
+    width: 100%;
+    border-radius: 8px;
+
+}
+
+.download-img-2 {
+    object-fit: cover;
+    margin-top: -300px;
+    margin-right: 400px;
+
+}
+
+
+
+.icon-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon-item {
+    display: flex;
+
+    align-items: center;
+    text-align: center;
+    transition: background-color 0.3s;
+    margin-top: 100px;
+    margin-left: 20px;
+
+}
+
+.img-icon {
+    margin: 5px;
+
+}
+
+.icon-item:hover .img-icon {
+    background-color: #FF42A5;
+
+
+
+
+}
+
+.icon-item:hover h6 {
+    border-radius: 20px;
+    color: #FF42A5;
+
+}
+
+.icon-container-2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -100px;
+    border-radius: 50px;
+    padding-bottom: 30px;
+}
+
+/* footer strat  */
+.footer-section {
+    background: #0B0223;
+
+    width: 100%;
+    height: 556px;
+}
+
+.footer-logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    width: 100%;
+
+}
+
+.footer-menu>ol a {
+    display: flex;
+    justify-content: center;
+    color: white;
+}
+
+.footer-logo {
+    color: white;
+    gap: 30px;
+}
+
+.footer-logo h1 {
+
+    font-size: 45px;
+}
+
+
+
+
+
+
+.footer-menu ol {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    padding-left: 250px;
+    margin-top: 20px;
+}
+
+.footer-menu li {
+    margin: 0;
+    margin-top: 50px;
+
+}
+
+.footer-menu a {
+    text-decoration: none;
+
+
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-icon i {
+    padding-top: 40px;
+    width: 40px;
+    font-size: 40px;
+    margin: 0 20px;
+    color: white;
+}
+
+
+.teams-container ol {
+    list-style: none;
+    display: flex;
+    gap: 60px;
+    padding-left: 250px;
+    margin-top: 20px;
+
+
+}
+
+.teams-container li {
+    margin: 0;
+    margin-top: 50px;
+
+
+}
+
+.teams-container>ol a {
+    color: rgba(255, 255, 255, 0.60);
+    margin-right: 20px;
+    font-size: 16px;
+    gap: 60px;
+}
+
+.teams-container p {
+    color: rgba(255, 255, 255, 0.60);
+    padding-top: 20px;
+    text-align: center;
 }
