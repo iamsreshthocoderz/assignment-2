@@ -1,0 +1,14 @@
+@media screen and (max-width:576px)  {
+    .menus-container{
+        padding: 20px;
+    }
+    .logo,.menus-container,  .menu>ol{
+        flex-direction: column;
+        
+    }
+
+    .goat-container-full{
+        flex-direction: column;
+    }
+
+}
