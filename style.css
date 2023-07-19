@@ -13,7 +13,7 @@
     justify-content: space-between;
     background: #FFF;
     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
-    padding: 20px;
+    padding: 50px 20px;
     align-items: center;
 
 
@@ -201,46 +201,48 @@ a {
 /* funny video */
 
 
-  .funny-title{
+.funny-title {
     text-align: center;
-  }
+}
 
-  .all-img{
+.all-img {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-  }
+}
 
-  .funny-img{
+.funny-img {
     flex: 0 0 250px;
     margin: 20px;
     text-align: center;
-  }
-  .funny-img img{
+}
+
+.funny-img img {
     max-width: 100%;
     height: auto;
-  }
-  .funny-img p{
+}
+
+.funny-img p {
     margin-top: 10px;
-  }
-
-
-  
+}
 
 
 
-  .funny-img {
+
+
+
+.funny-img {
     position: relative;
     display: inline-block;
     margin: 20px;
-  }
-  
-  /* .funny-img img {
+}
+
+/* .funny-img img {
     width: 100%;
     height: auto;
   } */
-  
-  .overlay {
+
+.overlay {
     position: absolute;
     border-radius: 16px;
     top: 0;
@@ -252,39 +254,49 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
     opacity: 0%;
     cursor: pointer;
     transition: opacity 0.3s;
-  }
-  
-  .funny-img:hover .overlay {
+}
+
+.bx {
+    justify-content: center;
+    width: 42px;
+    height: 42px;
+    background-color: #FFFFFF;
+    border-radius: 50px;
+    align-items: center;
+}
+
+.funny-img:hover .overlay {
     opacity: 3;
-  }
-  
-  .play-button {
+}
+
+.play-button {
     font-size: 48px;
     color: white;
     text-align: center;
     font-size: 40px;
-  }
-  
-  .text {
+}
+
+.text {
     margin-top: 10px;
     color: #FF42A5;
     text-align: center;
     font-size: 15px;
     font-weight: 600;
-    
-  }
 
-.funny-img-5{
+}
+
+.funny-img-5 {
     text-align: left;
 }
-  
 
 
 
-  
+
+
 /* download video  */
 
 
@@ -338,7 +350,6 @@ a {
 
 .icon-item {
     display: flex;
-
     align-items: center;
     text-align: center;
     transition: background-color 0.3s;
@@ -403,8 +414,7 @@ a {
 }
 
 .footer-logo h1 {
-
-    font-size: 45px;
+    ont-size: 45px;
 }
 
 
@@ -460,13 +470,12 @@ a {
     margin: 0;
     margin-top: 50px;
 
-
 }
 
 .teams-container>ol a {
     color: rgba(255, 255, 255, 0.60);
     margin-right: 20px;
-    font-size: 16px;
+    font-size: 1rem;
     gap: 60px;
 }
 

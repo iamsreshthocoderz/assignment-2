@@ -1,31 +1,68 @@
+/* Add this CSS code to your "responscive.css" file */
 
-  @media screen and (max-width: 576px) {
+/* Shared styles */
+
+/* Add the following media query for screens with a maximum width of 576px */
+
+@media screen and (max-width: 576px) {
     .menus-container {
       flex-direction: column;
       align-items: flex-start;
-      padding: 10px;
+      padding: 20px;
     }
   
-    .logo {
-      margin-left: 20px;
-      margin-bottom: 10px;
-    }
-  
-    .menu>ol {
-      margin-left: 0;
+    .menu > ol {
       flex-direction: column;
-      align-items: flex-start;
+      margin-left: 0;
     }
   
     .follow {
       margin-top: 10px;
-      margin-left: 0;
     }
-  
-    .item {
-      margin-right: 0;
-      margin-bottom: 10px;
-    }
+    
+  .goat-container-full {
+    flex-direction: column;
+    margin: 0 20px;
   }
+
+  .goat-container {
+    text-align: center;
+    margin-bottom: 30px;
+  }
+
+  .goat-container h1 {
+    font-size: 60px;
+  }
+
+  .goat-container p {
+    font-size: 16px;
+  }
+
+  .btn-paimary {
+    flex-direction: column;
+    align-items: flex-start;
+    margin-top: 20px;
+  }
+
+  .btn-1,
+  .btn-2 {
+    width: 100%;
+  }
+
+  .gamer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .gamer-img img {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+  }
+
+  .gamer-title h1 {
+    font-size: 32px;
+  }
+
   
-  
+}
