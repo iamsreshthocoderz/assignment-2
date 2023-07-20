@@ -1,68 +1,112 @@
-/* Add this CSS code to your "responscive.css" file */
-
-/* Shared styles */
-
-/* Add the following media query for screens with a maximum width of 576px */
 
 @media screen and (max-width: 576px) {
-    .menus-container {
-      flex-direction: column;
-      align-items: flex-start;
-      padding: 20px;
-    }
-  
-    .menu > ol {
-      flex-direction: column;
-      margin-left: 0;
-    }
-  
-    .follow {
-      margin-top: 10px;
-    }
-    
-  .goat-container-full {
-    flex-direction: column;
-    margin: 0 20px;
-  }
-
-  .goat-container {
-    text-align: center;
-    margin-bottom: 30px;
-  }
-
-  .goat-container h1 {
-    font-size: 60px;
-  }
-
-  .goat-container p {
-    font-size: 16px;
-  }
-
-  .btn-paimary {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 20px;
-  }
-
-  .btn-1,
-  .btn-2 {
-    width: 100%;
-  }
-
-  .gamer {
+  .menus-container {
     flex-direction: column;
     align-items: center;
-  }
+    padding: 20px;
+}
 
-  .gamer-img img {
-    width: 100%;
-    max-width: 300px;
-    height: auto;
-  }
+.menu {
+    margin: 20px 0;
+}
 
-  .gamer-title h1 {
-    font-size: 32px;
-  }
+.menu>ol {
+    flex-direction: column;
+    gap: 15px;
+    margin-left: 0;
+}
 
-  
+.follow {
+    margin-left: 0;
+}
+/* goat section */
+
+.goat-container-full, .btn-paimary {
+  flex-direction: column;
+  margin: 0;
+}
+
+.goat-container {
+  text-align: center;
+}
+
+.goat-img img {
+  width: 100%;
+  height: auto;
+}
+
+.gamer {
+  flex-direction: column;
+}
+
+.gamer-img img {
+  width: 80%;
+  margin: 20px auto;
+}
+
+.gamer-title {
+  text-align: center;
+}
+
+.all-img, .funny-img {
+  flex-direction: column;
+}
+
+.funny-img {
+  margin: 20px ;
+  text-align: center;
+}
+
+.funny-img p {
+  margin-top: 5px;
+}
+
+.download {
+  flex-direction: column;
+  padding: 2000;
+}
+
+.download-title, .paragraph {
+  padding: 20px;
+}
+
+.download-img, .download-img-2 {
+  width: 100%;
+  margin-right: -10px 0;
+}
+
+.all-icon {
+  flex-direction: column;
+}
+
+.icon-container, .icon-container-2 {
+  flex-wrap: wrap-reverse;
+  justify-content: center;
+  gap: 20px;
+  margin: 20px 0;
+}
+
+.icon-item {
+  margin: 10px;
+}
+
+.img-icon {
+  margin: 5px;
+}
+
+
+
+.footer-logo {
+  flex-direction: column;
+  gap: 10px;
+}
+
+.footer-menu ol {
+  flex-direction: column;
+  gap: 20px;
+  padding-left: 0;
+  margin-top: 20px;
+}
+
+
 }
